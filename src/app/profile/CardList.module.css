@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+.Title{
+    margin: 50px 0px;
+}
+.CartContainer{
+    display: flex;
+    flex-direction: column;
+}
+.Cart{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+   
+}
+.imageContainer{
+    position: relative;
+    height: 200px;
+    width: 50%;
+}
+.image{
+    object-fit: cover;
+}
+.contentContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+ 
+}
+.TypePost{
+    color: red;
+}
+.ContTitle{
+    font-size: 22px;
+    font-weight: 700;
+}
+.ContDesc{
+    color: var(--softTextColor);
+    font-size: 16px;
+    font-weight: 300;
+}
+.button{
+    color: var(--softTextColor);
+    font-weight: 700;
+    width: max-content;
+    padding: 10px 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 2px red;
+}
+
+@media screen and (max-width:768px) {
+    .Cart{
+        flex-direction: column;
+    }
+    .contentContainer{
+        width: 100%;
+    }
+    .imageContainer{
+        width: 100%;
+    }
+}

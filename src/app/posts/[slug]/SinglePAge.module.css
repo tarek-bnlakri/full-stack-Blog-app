@@ -1,0 +1,149 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.postinfo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   background-color: var(--softBg);
+   border-radius: 20px;
+    gap: 10px;
+}
+.textinfo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+ 
+}
+.headInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userInfo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.userName{
+   display: flex;
+   flex-direction: column;
+   gap: 4px;
+}
+
+
+
+.containerImage{
+
+ 
+    position: relative;
+    height: 300px;
+    
+  
+}
+.image{
+    
+    object-fit: contain;
+    border-radius: 20px;
+
+}
+
+.contentContiner{
+    
+    display: flex;
+    gap: 50px;
+}
+.content{
+    flex: 5;
+}
+.descr{
+    
+   
+}
+
+@media screen and (max-width: 868px) {
+    .postinfo{
+       
+        flex-direction: column;
+        gap: 20px;
+    }
+    .containerImage{
+       
+        height: 300px;
+       width: 100%;
+    }
+    .textinfo{
+       gap: 10px;
+        width: 100%;
+    }
+
+    
+}
+/* For Menu Delete */
+.containerOption{
+    position: relative;
+  
+}
+.option{
+    padding: 2px;
+     cursor: pointer;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:center;
+     gap: 1.8px;
+ 
+   
+ }
+ .point{
+     background-color: var(--softTextColor);
+     height: 4px;
+     width: 4px;
+     border-radius: 50%;
+ }
+
+.MenuDelete{
+    width: 150px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    
+    background-color: var(--softTextColor);
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 3px;
+
+}
+.Delete{
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+
+}
+.buttonDelete{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1px;
+    font-size: 12px;
+}
+.msage{
+    cursor: pointer;
+    width: max-content;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+.msage:hover{
+    transition: 0.5s;
+    background-color:red;
+color: white;
+}

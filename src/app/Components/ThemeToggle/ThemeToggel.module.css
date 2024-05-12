@@ -1,0 +1,19 @@
+.toggel{
+    height: 20px;
+    width: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: relative;
+    cursor: pointer;
+}
+.bole{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+   
+}

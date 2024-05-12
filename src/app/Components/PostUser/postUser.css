@@ -1,0 +1,62 @@
+.postUserContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     border-radius: 5px;
+
+    padding: 20px;
+}
+.userInfoContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userInfoContainerLeft{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.description{
+    color: var(--softTextColor);
+}
+
+.ImageContainer{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+.image{
+    object-fit: cover;
+}
+
+.LikesAndComments{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.usersWhoLikes{
+    display: flex;
+    align-items: center;
+}
+.Comments:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nbrUsers:hover{
+    text-decoration: underline;
+    cursor: pointer;  
+}
+.buttonHeart,
+.buttonComments{
+    padding: 0 8px;
+    border-radius: 3px;
+    cursor: pointer;  
+    color: var(--softTextColor);
+    
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    text-align: center;
+    background-color: coral;
+    color: white;
+    padding: 5px 10px;
+  text-transform: capitalize;
+}
+.content{
+    
+    display: flex;
+    gap: 50px;
+    
+}
+.catigory.style {
+    background-color: #57c4ff31;
+  }
+  
+  .catigory.fashion {
+    background-color: #da85c731;
+  }
+  
+  .catigory.food {
+    background-color: #7fb88133;
+  }
+  
+  .catigory.travel {
+    background-color: #ff795736;
+  }
+  
+  .catigory.culture {
+    background-color: #ffb04f45;
+  }
+  
+  .catigory.coding {
+    background-color: #5e4fff31;
+  }
